@@ -33,11 +33,12 @@ void main()
 {
 	String str("234"), str1("134"), str2("9964"), str3("2247");
 	String str4;
-	str4=str+str;
+	
 
 	printf("str: ");
 	str.output();
 
+	str4=str+str;
 	printf("\n\nstr+str: ");
 	str4.output();
 
